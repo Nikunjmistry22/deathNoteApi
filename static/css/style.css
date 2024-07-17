@@ -1,0 +1,40 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background: url('/static/img/wallpaper.jpg') center/cover no-repeat fixed;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cover .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cover h1 {
+    font-size: 3rem;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
