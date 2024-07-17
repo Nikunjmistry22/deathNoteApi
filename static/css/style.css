@@ -38,3 +38,12 @@ body {
 .btn:hover {
     background-color: #0056b3; /* Darker shade of blue on hover */
 }
+footer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-weight:bold;
+  color: white;
+}
