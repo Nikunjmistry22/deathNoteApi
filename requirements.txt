@@ -1,0 +1,4 @@
+Flask==2.2.3
+pymongo==4.1.1
+bson==0.5.10
+python-dotenv==0.21.0
